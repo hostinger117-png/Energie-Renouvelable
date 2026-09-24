@@ -24,5 +24,5 @@ This is a practice project. The goal was to build a clean landing page about ren
 
 ### 🤖 n8n Chatbot Workflow
 1.  `Chat Trigger` in n8n
-2.  `ChatBot Agent` 
+2.  `ChatBot` 
 3.  `Webhook` connected to the frontend chat bubble
