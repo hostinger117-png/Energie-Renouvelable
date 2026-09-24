@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUP OF WORLD</title>
+    <style>
+        body{
+            margin: auto;
+            box-sizing: border-box;
+            background-color: black;
+            color: azure;
+        }
+        header{
+            background-image: url(home.png);
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 185px;
+            margin-top: 70px;
+        }
+        nav{
+            text-align: center;
+            margin: 20px;
+            background-color:rgba(94, 93, 93, 0.402);
+            backdrop-filter: blur(50%);
+            height: 30px;
+            padding: 2px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        ul li{
+            list-style: none;
+            display: inline-block;
+            padding-left: 20px;
+            text-align: center;
+        }
+        main{
+            margin-bottom: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 85px;
+            margin: 25px 90px 100px 90px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+         section h3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.5rem;
+        }
+        .cup{
+            color: gray;
+        }
+        section{
+            border-left: 1px solid gray;
+            padding-left: 20px;
+            border-radius: 5%;
+            padding: 20px 15px;
+        }
+        aside img {
+  display: inline-block;
+  /* السمية ديال الـ animation، الوقت، وسلس وبلا نهاية */
+  animation: spinY 7s linear infinite;
+  
+  /* هاد الخاصية اختيارية ولكن كتعطي عمق 3D زوين للدوران */
+  transform-style: preserve-3d;
+}
+
+@keyframes spinY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+        aside img{
+            width:280px;
+            height: 330px;
+            margin-top: 10px;
+            border-radius: 10px;
+            transform: rotate(360deg);
+        }
+        .player{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+        .player img{
+            width: 220px;
+            height: 200px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            background-image: linear-gradient(black,rgb(40, 40, 40));
+        }
+        .player div{
+            width: 220px;
+            height: 250px;
+            border-radius: 8px;
+            background-color: black;
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: gray;
+        }
+        #tree{
+            position: relative;
+            height: 400px;
+            width: 100%;
+            margin-top: 50px;
+        }
+        #tree img{
+            height: 400px;
+            width: 90%;
+            margin-left: 70px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+    </header>
+
+    <main>
+       <section>
+        <h3>FIFA</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus dolor ea
+         praesentium natus reprehenderit necessitatibus culpa dolores pariatur odit a 
+         fuga iste nemo, sit perferendis doloremque asperiores totam rem magni? 
+        Perspiciatis corrupti eum reprehenderit quam ducimus rerum, alias animi fugiat.
+        </p>
+        <h3 class="CUP">CUP OF WORLD</h3>
+        <p class="cup">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsam obcaecati 
+            vitae quia qui iure voluptate mollitia voluptatem odit tempora 
+            aperiam, minus natus deserunt? Totam enim ipsam repudiandae? Expedita, repellat.
+        </p>
+       </section>
+        <aside>
+            <img src="c:\Users\PC\Downloads\ballon-removebg-preview.png" alt="cup of world ">
+        </aside>
+    </main>
+
+    <div class="player">
+        <div><img src="c:\Users\PC\Downloads\Gemini_Generated_Image_wj2dz5wj2dz5wj2d-removebg-preview.png" alt="">the best player in morocco and arais and germane</div>
+        <div><img src="c:\Users\PC\Downloads\Gemini_Generated_Image_2ewu022ewu022ewu-removebg-preview.png" alt="">the best player in morocco and arais and germane</div>
+        <div><img src="c:\Users\PC\Downloads\Gemini_Generated_Image_6auk2c6auk2c6auk-removebg-preview.png" alt="">the best player in morocco and arais and germane</div>
+        <div><img src="c:\Users\PC\Downloads\Gemini_Generated_Image_qfh645qfh645qfh6-removebg-preview.png" alt="">the best player in morocco and arais and germane</div>
+    </div>
+
+    <div id="tree">
+        <img src="c:\Users\PC\Downloads\tree-removebg-preview.png" alt="">
+    </div>
+
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+
+<script type="module">
+import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+createChat({
+	webhookUrl: 'https://litmus-relish-craftily.ngrok-free.dev/webhook/b0fee7b1-7fb0-4629-bcb3-ef8dd2df61ea/chat'
+});
+</script>
+</body>
+</html>
